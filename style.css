@@ -1,0 +1,54 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+body {
+	background-color: #d8cfd0;
+}
+
+.titles {
+	padding-top: 2rem;
+	display: flex;
+	flex-direction: column;
+	justify-content: start;
+	align-items: center;
+}
+.buttons {
+	margin-top: 0.5rem;
+	display: flex;
+	justify-content: center;
+}
+h2,
+button {
+	color: #413f3d;
+	margin: 0.5rem;
+}
+button {
+	height: 2rem;
+	font-size: 1rem;
+	padding: 0.5rem 2rem;
+	border: solid 0.1rem #413f3d;
+	border-radius: 0.5rem;
+	background-color: #697184;
+	color: #f2f1ef;
+}
+h1 {
+	padding: 2rem;
+	color: #222120;
+	font-size: 4rem;
+}
+#computer {
+	color: rgb(187, 8, 8);
+}
+#user {
+	color: rgb(7, 34, 155);
+}
+.Loser {
+	color: rgb(187, 8, 8);
+}
+.Winner {
+	color: rgb(3, 104, 3);
+}
+.Tie {
+	color: rgb(114, 114, 114);
+}
